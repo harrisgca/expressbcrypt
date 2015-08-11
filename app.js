@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var app = express();
 var methodOverride = require('method-override');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/skateboard-app');
+mongoose.connect('mongodb://localhost:27017/user-bcrypt-app');
 
 var routes = require('./config/routes');
 
